@@ -22,6 +22,16 @@ WARNING: linker: /data/local/tmp/arm64: unsupported flags DT_FLAGS_1=0x8000001
 hello world 8
 ```
 
+- make arm32
+```
+/home/a/x/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi23-clang hello-world.c -o ./armv7a.bin
+```
+
+- make arm64
+```
+/home/a/x/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android23-clang hello-world.c -o ./aarch64.bin
+```
+
 ![image](https://github.com/lliliii/cdroid-cross-platform/assets/105020691/72af4cf9-ac30-4b53-bc3a-bff8d4a61148)
 
 
