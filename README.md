@@ -22,6 +22,9 @@ WARNING: linker: /data/local/tmp/arm64: unsupported flags DT_FLAGS_1=0x8000001
 hello world 8
 ```
 
+![image](https://github.com/lliliii/cdroid-cross-platform/assets/105020691/72af4cf9-ac30-4b53-bc3a-bff8d4a61148)
+
+
 ## Todo(?)
 1. `unsupported flags DT_FLAGS_1=0x8000001` 경고 해결
 2. Makefile 고도화 (변수화 등등 디테일), 혹은 cmake로 전환
