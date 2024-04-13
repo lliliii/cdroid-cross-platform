@@ -20,8 +20,8 @@ arm64:
 
 push_and_run_arm32: arm32
 	adb push ./armv7a.bin $(DEVICE_PATH)
-	adb shell chmod 755 $(DEVICE_PATH)/arm32
-	adb shell $(DEVICE_PATH)/arm32
+	adb shell chmod 755 $(DEVICE_PATH)/armv7a.bin
+	adb shell $(DEVICE_PATH)/armv7a.bin
 
 push_and_run_arm64: arm64
 	adb push ./aarch64.bin $(DEVICE_PATH)
